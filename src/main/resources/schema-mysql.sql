@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `todo` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(32) NOT NULL,
+  `title` VARCHAR(32),
+  `tags` VARCHAR(32),
+  `done` BOOLEAN,
+PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1;
