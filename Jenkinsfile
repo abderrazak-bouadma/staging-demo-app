@@ -34,7 +34,7 @@ pipeline {
     }
     stage('deploy') {
       steps {
-        sh 'make deploy-default'
+        sh 'echo deploy'
       }
     }
   }
